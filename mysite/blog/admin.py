@@ -10,3 +10,5 @@ class PostAdmin(admin.ModelAdmin):
     prepopulated_fields = {"slug": ("title",)}
 
 admin.site.register(Post, PostAdmin)
+
+# No changes was made. No new code needed.

@@ -20,3 +20,5 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path('home', include('blog.urls'))
 ]
+
+# No changes was made. No new code needed.
